@@ -3,7 +3,7 @@ set s.GRADE = 5
 where s.NAME = 'End of Suburbia: Oil Depletion and the Collapse of the American Dream';
 
 update STUDENT s
-set s."group" = 8
+set s.GROUPNUMBER = 8
 where s.NAME = 'Tremaine Worvill';
 
 update PAYMENT p

@@ -1,4 +1,4 @@
-select s.ID, NAME, BIRTHDAY, "group"
+select s.ID, NAME, BIRTHDAY, GROUPNUMBER
 from STUDENT s
          join (select m.STUDENT_ID, avg(m.MARK) as avarage_mark
                from MARK m

@@ -1,16 +1,16 @@
-insert into Student(id, name, "group")
-values (1, 'John', 1),
-       (2, 'Chris', 1),
-       (3, 'Carl', 1),
-       (4, 'Oliver', 2),
-       (5, 'James', 2),
-       (6, 'Lucas', 2),
-       (7, 'Henry', 2),
-       (8, 'Jacob', 3),
-       (9, 'Logan', 3),
-       (10, 'Fred', 4),
-       (11, 'Larry', 5),
-       (12, 'Andy', 5);
+insert into Student(id, name,BIRTHDAY, GROUPNUMBER)
+values (1, 'John',  '2000-01-01',1),
+       (2, 'Chris', '2000-01-01',1),
+       (3, 'Carl',  '2000-01-01',1),
+       (4, 'Oliver','2000-01-01', 2),
+       (5, 'James', '2000-01-01',2),
+       (6, 'Lucas', '2000-01-01',2),
+       (7, 'Henry', '2000-01-01',2),
+       (8, 'Jacob', '2000-01-01',3),
+       (9, 'Logan', '2000-01-01',3),
+       (10, 'Fred', '2000-01-01',4),
+       (11, 'Larry','2000-01-01', 5),
+       (12, 'Andy', '2000-01-01',5);
 
 insert into Subject(id, name, grade)
 values (1, 'Art', 1),
@@ -46,4 +46,3 @@ values (1, 2, 1, 8),
        (5, 9, 5, 9),
        (6, 12, 3, 5),
        (7, 7, 2, 3);
-
